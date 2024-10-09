@@ -1,0 +1,39 @@
+﻿body {
+    margin : 0;
+    padding : 0;
+    background-color : aqua;
+    display : flex;
+    justify-content : center;
+    align-content : center;
+    box-sizing : border-box;
+}
+#a1 {
+    background-color: white;
+    position: relative;
+    top: 100px;
+    width: 300px;
+    text-align: center;
+}
+.set{
+    display : inline-flex;
+    padding : 10px 15px;
+    margin-right : 20px;
+    border : 2px solid black;
+    letter-spacing : 10px;
+    font-size : 20px;
+}
+.set:last-child {
+    margin-right: 0; /* Remove margin from the last child */
+}
+.a2{
+    display : inline-flex;
+    justify-content : space-between;
+    margin-right : 20px;
+    padding : 5px;
+    background-color : yellow;
+}
+.a2:last-child{
+    margin-right : 0px;
+}
+
+
